@@ -1,6 +1,7 @@
 package com.slaweklida.atiperaTask;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.BufferedReader;
@@ -10,9 +11,9 @@ import java.lang.reflect.InaccessibleObjectException;
 
 @RestController
 public class FirstEndpoint {
-    @GetMapping("/user")
-    public String getUser() throws IOException {
-        String command = "powershell.exe gh repo list abcslawek --source";
+    @GetMapping("/{username}")
+    public String getUser(@PathVariable("username") String username) throws IOException {
+        String command = "powershell.exe gh repo list " + username + " --source";
         Process powerShellProcess = Runtime.getRuntime().exec(command);
         powerShellProcess.getOutputStream().close();
         String text = "";
