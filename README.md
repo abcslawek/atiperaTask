@@ -19,8 +19,8 @@ To run this project, you will need the following:
 4. Build and run the project using the appropriate commands for your framework.
 
 ### Request and response
-![s1](https://github.com/abcslawek/atiperaTask/assets/56951671/8559f934-62bf-4b36-9d6c-53f8016d2667)
-![s2](https://github.com/abcslawek/atiperaTask/assets/56951671/9fc9c547-385e-4750-a30d-505545a7c238)
+![p1](https://github.com/abcslawek/atiperaTask/assets/56951671/20485af3-197c-453d-97f6-3ee8941fd8bb)
+![p2](https://github.com/abcslawek/atiperaTask/assets/56951671/6eedaf75-97e5-4754-9b0d-927b08754e6d)
 
 
 ### Conclusion
